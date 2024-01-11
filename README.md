@@ -20,9 +20,10 @@ First we find the most important stats and combine them into balance sheet type 
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/f77631d0-d0c8-4062-a865-478dda0981c0)
 
-Now let`s look at some data by quarters. Gross profit by quarter
+Now let`s look at some data by quarters. Gross profit by quarter decreased throughthout 2018 and first Q1 of 2019. Sales spike up on Q2 and Q3 of 2019 and decrease on Q4 again. Since sold books are educational it might be a normal distribution having in mind academic seasonality.
 
-![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/e321e942-0d2f-4086-8ed5-0dd1df76f681)
+![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/0e34f852-c831-490a-b0d0-37406fbbb19f)
+
 
 
 ## Conslusion
