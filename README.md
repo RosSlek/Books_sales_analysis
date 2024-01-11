@@ -22,7 +22,7 @@ First we find the most important stats and combine them into balance sheet type 
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/f77631d0-d0c8-4062-a865-478dda0981c0)
 
-Now let`s look at some data by quarters. Amount of units sold by quarter sharply droped after Q2 of year 2018 and stayed low until Q2 of 2019. Q2 and Q3 account for 82.6% of 2019 sales.
+Now let`s look at some data by quarters. Amount of units sold by quarter sharply droped after Q2 of year 2018 and stayed low until Q2 of 2019. Q2 and Q3 account for 82.6% of 2019 sales, however gross profit per unit sold was the lowest in Q2 - 2019 throughout both years.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/81553bd7-236f-44ab-903a-28b535889e24)
 
@@ -35,7 +35,7 @@ Majority of sold books in 2018 fall into either college or competition category,
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/ab8139be-2f36-4298-b852-d4d356d4e315)
 
 
-Since selling product is educational, it is bought by necessity, so sale offers does not have a big impact on sales. Following pie chart shows, that less than 15% of sales and made on discounted books.
+Since selling product is educational, it is bought by necessity, so sale offers does not have a big impact on sales. Following pie chart shows, that less than 15% of sales are made on discounted books.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/51902b7e-d824-489a-b22e-4bd6bf128c3d)
 
