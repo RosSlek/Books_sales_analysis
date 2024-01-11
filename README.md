@@ -10,23 +10,14 @@ This project was made to improve in data analysis, make some insgiht of given da
 #### • Improve
 
 ## Main steps:
-#### •	Learn about Tkinter, create nice looking UI.
-#### • Add functionality and comfortability.
-#### •	Adapt app to real business example
+#### • Chose dataset from [Kaggle](https://www.kaggle.com/datasets/shilpikulshrestha/books-sold-dataset).
+#### • Clean, divide and reshape data.
+#### • Analyse data.
+#### • Save result to excel for easy access.
 
 ## Result:
-### Created UI to represent daily workers activities.
-![image](https://github.com/RosSlek/Sandelio-valdymo-programa/assets/149397027/3d2e3d2b-92b6-4a74-bab2-e77ea8d0b3cb)
-
 ### Created functions to add materials to the warehouse, transfer materials to production with optional comment fields and timestamps when action occured. Functions to show remaining inventory in warehouse and production, informational popup windows.
 
-![image](https://github.com/RosSlek/Sandelio-valdymo-programa/assets/149397027/00d29c9b-e37f-479a-b06a-3a8f7c507266)
-
-![image](https://github.com/RosSlek/Sandelio-valdymo-programa/assets/149397027/0bc7e0ce-3b24-4ce6-bb35-a738dbbe82ee)
-
-### Created function to registrate work orders, to write off used materials, added safety features to fill correct data.
-
-![image](https://github.com/RosSlek/Sandelio-valdymo-programa/assets/149397027/df0b63bd-4ead-45b4-a317-ceea0c779c9a)
 
 ### Added switches to change view of inventory in warehouse/production, light/dark mode.
 
