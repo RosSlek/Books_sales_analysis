@@ -16,7 +16,7 @@ This project was made to improve in data analysis, make some insgiht of given da
 #### • Save result to excel for easy access.
 
 ## Analysis:
-First we find the most important stats and combine them into balance sheet type table. As we can see revenue slightly increased from 652,271k in year 2018 to 662,290 in 2019. Gross profit grew by 8.6% and gross profit percentage increased to 16.36% while cost of revenue rose insignificantly
+First we find the most important stats and combine them into balance sheet type table. As we can see revenue slightly increased from 652,271k in year 2018 to 662,290 in 2019. Gross profit grew by 8.6% and gross profit percentage increased to 16.36% while cost of revenue rose insignificantly. However, amount of units sold per year almost duobled, so operating expenses most likely grew, thus reducing net profit. Profit per unit sold shrank almost in half. 
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/f77631d0-d0c8-4062-a865-478dda0981c0)
 
