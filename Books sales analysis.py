@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from openpyxl import load_workbook
 
 ############### DIVIDING DATASET ###############
 
@@ -194,13 +195,18 @@ for i in days:
 
 ##### creating dataframes #####
 
-balance = pd.DataFrame({'': ['Revenue', 'Cost of revenue', 'Gross profit', 'Gross profit percentage', 'Units sold per year', 'Average profit per unit sold'],
-                        '2018' : [f'{item_price_2018}', f'{cost_price_2018}', f'{profit_2018}', f'{profit_per_2018} %', f'{units_sold_2018}', f'{avg_profit_2018}'],
-                        '2019' : [f'{item_price_2019}', f'{cost_price_2019}', f'{profit_2019}', f'{profit_per_2019} %', f'{units_sold_2019}', f'{avg_profit_2019}']})
+balance = pd.DataFrame({'Balance': ['Revenue', 'Cost of revenue', 'Gross profit', 'Gross profit percentage, %', 'Units sold per year', 'Average profit per unit sold'],
+                        '2018' : [f'{item_price_2018}', f'{cost_price_2018}', f'{profit_2018}', f'{profit_per_2018}', f'{units_sold_2018}', f'{avg_profit_2018}'],
+                        '2019' : [f'{item_price_2019}', f'{cost_price_2019}', f'{profit_2019}', f'{profit_per_2019}', f'{units_sold_2019}', f'{avg_profit_2019}']})
+balance['2018'] = pd.to_numeric(balance['2018'])
+balance['2019'] = pd.to_numeric(balance['2019'])
 
-sale_offers = pd.DataFrame({'' : ['Sale quantity during sale offer', 'Sale quantity on regular price'],
+sale_offers = pd.DataFrame({'Sale offer' : ['Sale quantity during sale offer', 'Sale quantity on regular price'],
                             '2018' : [f'{sales_with_discount_2018}', f'{sales_without_discount_2018}'],
                             '2019' : [f'{sales_with_discount_2019}', f'{sales_without_discount_2019}']})
+
+sale_offers['2018'] = pd.to_numeric(sale_offers['2018'])
+sale_offers['2019'] = pd.to_numeric(sale_offers['2019'])
 
 ##### sales by gender #####
 
@@ -214,38 +220,116 @@ sales_f_2018 = sales_f_2018['Quantity'].sum()
 sales_f_2019 = df_2019.loc[df['Gender'] == 'F']
 sales_f_2019 = sales_f_2019['Quantity'].sum()
 
-gender_sales = pd.DataFrame({'' : ['Male sales', 'Female sales'],
+gender_sales = pd.DataFrame({'Gender' : ['Male sales', 'Female sales'],
                             '2018' : [f'{sales_m_2018}', f'{sales_f_2018}'],
                             '2019' : [f'{sales_m_2019}', f'{sales_f_2019}']})
 
+gender_sales['2018'] = pd.to_numeric(gender_sales['2018'])
+gender_sales['2019'] = pd.to_numeric(gender_sales['2019'])
+
 ############### FORMATING ANALYSIS ###############
 
-print("\n*Values are in Indian rupee (INR)")
-print(f"\nBalance sheet: \n{balance}")
-
-print(f"\nProfit by category: \n{profit_by_category}")
-
-print(f"\nSales data regarding sale offers: \n{sale_offers}")
-
-print(f"\nData by quarter: \n{quarter_data}")
-
-print(f"\nProfit per sale on discounted units: \n{quarter_data_dis}")
-print(f"\nProfit per unit on regular price: \n{quarter_data_no_dis}")
-
-print(f"\nTop 10 most profitable authors 2018: \n{top10_authors_2018}")
-print(f"\nTop 10 most profitable authors 2019: \n{top10_authors_2019}")
-
-print(f"\nTop 10 best selling authors 2018: \n{top10_authors_sales_2018}")
-print(f"\nTop 10 best selling authors 2019: \n{top10_authors_sales_2019}")
-
-print(f"\nTop 10 best selling products 2018: \n{top10_products_sold_2018}")
-print(f"\nTop 10 best selling products 2019: \n{top10_products_sold_2019}")
-
+# print("\n*Values are in Indian rupee (INR)")
+# print(f"\nBalance sheet: \n{balance}")
+#
+# print(f"\nProfit by category: \n{profit_by_category}")
+#
+# print(f"\nSales data regarding sale offers: \n{sale_offers}")
+#
+# print(f"\nData by quarter: \n{quarter_data}")
+#
+# print(f"\nProfit per sale on discounted units: \n{quarter_data_dis}")
+# print(f"\nProfit per unit on regular price: \n{quarter_data_no_dis}")
+#
+# print(f"\nTop 10 most profitable authors 2018: \n{top10_authors_2018}")
+# print(f"\nTop 10 most profitable authors 2019: \n{top10_authors_2019}")
+#
+# print(f"\nTop 10 best selling authors 2018: \n{top10_authors_sales_2018}")
+# print(f"\nTop 10 best selling authors 2019: \n{top10_authors_sales_2019}")
+#
+# print(f"\nTop 10 best selling products 2018: \n{top10_products_sold_2018}")
+# print(f"\nTop 10 best selling products 2019: \n{top10_products_sold_2019}")
+#
 print(f"\nSales per quarter by the part of the day: \n{sales_on_part_day}")
 
 print(f"\nSales per quarter by day of the week: \n{week}")
 
 print(f"\n Sales by gender: \n{gender_sales}")
+
+balance.to_excel("Balance.xlsx", index=False, header=True, startrow=1, sheet_name='Balance')
+
+with pd.ExcelWriter("Balance.xlsx", mode="a", engine="openpyxl", if_sheet_exists="overlay") as writer:
+    ws = pd.read_excel('Balance.xlsx', sheet_name='Balance')
+    row = len(ws) + 5
+    profit_by_category.to_excel(writer, index=False, header=True, startrow=row, sheet_name='Balance')
+    quarter_data.to_excel(writer, index=False, header=True, startrow=1, sheet_name='Quarters')
+    top10_authors_2018.to_excel(writer, index=False, header=True, startrow=1, sheet_name='Top')
+
+with pd.ExcelWriter("Balance.xlsx", mode="a", engine="openpyxl", if_sheet_exists="overlay") as writer:
+    ws = pd.read_excel('Balance.xlsx', sheet_name='Balance')
+    wq = pd.read_excel('Balance.xlsx', sheet_name='Quarters')
+    wt = pd.read_excel('Balance.xlsx', sheet_name='Top')
+    row = len(ws) + 5
+    row_q = len(wq) + 5
+    row_t = len(wt) + 5
+    sale_offers.to_excel(writer, index=False, header=True, startrow=row, sheet_name='Balance')
+    quarter_data_dis.to_excel(writer, index=False, header=True, startrow=row_q, sheet_name='Quarters')
+    top10_authors_2019.to_excel(writer, index=False, header=True, startrow=row_t, sheet_name='Top')
+
+with pd.ExcelWriter("Balance.xlsx", mode="a", engine="openpyxl", if_sheet_exists="overlay") as writer:
+    wq = pd.read_excel('Balance.xlsx', sheet_name='Quarters')
+    wt = pd.read_excel('Balance.xlsx', sheet_name='Top')
+    row_q = len(wq) + 5
+    row_t = len(wt) + 5
+    quarter_data_no_dis.to_excel(writer, index=False, header=True, startrow=row_q, sheet_name='Quarters')
+    top10_authors_sales_2018.to_excel(writer, index=False, header=True, startrow=row_t, sheet_name='Top')
+
+with pd.ExcelWriter("Balance.xlsx", mode="a", engine="openpyxl", if_sheet_exists="overlay") as writer:
+    wt = pd.read_excel('Balance.xlsx', sheet_name='Top')
+    wq = pd.read_excel('Balance.xlsx', sheet_name='Quarters')
+    row_t = len(wt) + 5
+    row_q = len(wq) + 5
+    top10_authors_sales_2019.to_excel(writer, index=False, header=True, startrow=row_t, sheet_name='Top')
+    sales_on_part_day.to_excel(writer, index=False, header=True, startrow=row_q, sheet_name='Quarters')
+
+with pd.ExcelWriter("Balance.xlsx", mode="a", engine="openpyxl", if_sheet_exists="overlay") as writer:
+    wt = pd.read_excel('Balance.xlsx', sheet_name='Top')
+    wq = pd.read_excel('Balance.xlsx', sheet_name='Quarters')
+    row_t = len(wt) + 5
+    row_q = len(wq) + 5
+    top10_products_sold_2018.to_excel(writer, index=False, header=True, startrow=row_t, sheet_name='Top')
+    week.to_excel(writer, index=False, header=True, startrow=row_q, sheet_name='Quarters')
+
+with pd.ExcelWriter("Balance.xlsx", mode="a", engine="openpyxl", if_sheet_exists="overlay") as writer:
+    wt = pd.read_excel('Balance.xlsx', sheet_name='Top')
+    wq = pd.read_excel('Balance.xlsx', sheet_name='Quarters')
+    row_t = len(wt) + 5
+    row_q = len(wq) + 5
+    top10_products_sold_2019.to_excel(writer, index=False, header=True, startrow=row_t, sheet_name='Top')
+    gender_sales.to_excel(writer, index=False, header=True, startrow=row_q, sheet_name='Quarters')
+
+wb = load_workbook("Balance.xlsx")
+ws_balance = wb['Balance']
+ws_quarter = wb['Quarters']
+ws_top = wb['Top']
+
+ws_balance['A1'] = 'Balance sheet:'
+ws_balance['A12'] = 'Profit by category:'
+ws_balance['A21'] = 'Sales data regarding sale offers:'
+ws_quarter['A1'] = 'Profit by quarter (overall):'
+ws_quarter['A14'] = 'Discounted units profit:'
+ws_quarter['A27'] = 'Regular price units profit:'
+ws_quarter['A40'] = 'Sales per quarter by the part of the day:'
+ws_quarter['A53'] = 'Sales per quarter by day of the week:'
+ws_quarter['A66'] = 'Sales by gender:'
+ws_top['A1'] = 'Top 10 most profitable authors 2018'
+ws_top['A16'] = 'Top 10 most profitable authors 2019'
+ws_top['A31'] = 'Top 10 best selling authors 2018'
+ws_top['A46'] = 'Top 10 best selling authors 2019'
+ws_top['A61'] = 'Top 10 best selling products 2018'
+ws_top['A76'] = 'Top 10 best selling products 2019'
+
+wb.save("Balance.xlsx")
 
 ############### CREATING GRAPHS ###############
 
@@ -410,4 +494,4 @@ plt.subplot(122)
 product_pie_2019 = [top_other_products_sales_2019, top_sold_products_2019]
 plt.pie(product_pie_2019, labels=labels_aut, explode=(0, 0.1,), shadow=True, colors=colors_aut, autopct=product_autopct(product_pie_2019), startangle=160)
 plt.title('2019')
-plt.show()
+# plt.show()
