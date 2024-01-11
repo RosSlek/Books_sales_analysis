@@ -351,6 +351,7 @@ plt.ylabel('Sales amount')
 plt.title('SALES BY DAY OF THE WEEK')
 plt.grid(axis='y')
 plt.legend(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])
+plt.savefig('SALES BY DAY OF THE WEEK.png')
 # plt.show()
 
 ##### profit by category graph #####
@@ -364,6 +365,7 @@ plt.ylabel('Sales amount')
 plt.title('SALES BY THE PART OF THE DAY')
 plt.legend(['Morning', 'Afternoon', 'Evening', 'Night'])
 plt.grid(axis='y')
+plt.savefig('SALES BY THE PART OF THE DAY.png')
 # plt.show()
 
 ##### profit by category graph #####
@@ -390,6 +392,7 @@ plt.subplot(122)
 profit_pie_2019 = profit_by_category['2019'].tolist()
 plt.pie(profit_pie_2019, labels=labels_pro, shadow=True, colors=colors_pro, autopct=profit_autopct(profit_pie_2019), startangle=90)
 plt.title('2019')
+plt.savefig('PROFIT BY CATEGORY.png')
 # plt.show()
 
 ##### sales on discount and regular price graphs #####
@@ -415,6 +418,7 @@ plt.subplot(122)
 sales_pie_2019 = [sales_with_discount_2019, sales_without_discount_2019]
 plt.pie(sales_pie_2019, labels=labels_dis, explode=(0, 0.15), shadow=True, colors=colors_dis, autopct=sales_autopct(sales_pie_2019), startangle=90)
 plt.title('2019')
+plt.savefig('SALES DEPENDING ON OFFERS.png')
 # plt.show()
 
 ##### profit by quarter graph #####
@@ -425,7 +429,7 @@ plt.title('PROFIT BY QUARTER')
 plt.ylabel('Profit (INR)')
 plt.xlabel('Quarter')
 plt.bar_label(profit_by_quarter_graph)
-plt.xticks(rotation=0)
+plt.savefig('PROFIT BY QUARTER.png')
 # plt.show()
 
 ##### sales by quarter graph #####
@@ -436,7 +440,7 @@ plt.title('SALES BY QUARTER')
 plt.ylabel('Sales')
 plt.xlabel('Quarter')
 plt.bar_label(sales_by_quarter_graph)
-plt.xticks(rotation=0)
+plt.savefig('SALES BY QUARTER.png')
 # plt.show()
 
 ##### profit per sale by quarter graph #####
@@ -448,6 +452,7 @@ plt.ylabel('Profit per sale, INR')
 plt.title('PROFIT PER SALE BY QUARTER')
 plt.legend(['On sale', 'Without sale'])
 plt.grid(axis='y')
+plt.savefig('PROFIT PER SALE BY QUARTER.png')
 # plt.show()
 
 ##### top 10 best selling authors 2018 and 2019 graph #####
@@ -474,6 +479,7 @@ author_pie_2019 = [other_sales_2019, top_sold_authors_2019]
 plt.pie(author_pie_2019, labels=labels_aut, explode=(0, 0.1,), shadow=True, colors=colors_aut, autopct=author_autopct(author_pie_2019), startangle=90)
 plt.title('2019')
 plt.legend(['Other authors', 'Top 10 authors'], loc='upper right', fontsize='small')
+plt.savefig('BEST SELLING AUTHORS.png')
 # plt.show()
 
 ##### top 10 best selling products 2018 and 2019 graph #####
@@ -500,4 +506,5 @@ plt.subplot(122)
 product_pie_2019 = [top_other_products_sales_2019, top_sold_products_2019]
 plt.pie(product_pie_2019, labels=labels_aut, explode=(0, 0.1,), shadow=True, colors=colors_aut, autopct=product_autopct(product_pie_2019), startangle=160)
 plt.title('2019')
+plt.savefig('BEST SELLING PRODUCTS.png')
 plt.show()
