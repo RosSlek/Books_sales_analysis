@@ -229,32 +229,34 @@ gender_sales['2019'] = pd.to_numeric(gender_sales['2019'])
 
 ############### FORMATING ANALYSIS ###############
 
-# print("\n*Values are in Indian rupee (INR)")
-# print(f"\nBalance sheet: \n{balance}")
-#
-# print(f"\nProfit by category: \n{profit_by_category}")
-#
-# print(f"\nSales data regarding sale offers: \n{sale_offers}")
-#
-# print(f"\nData by quarter: \n{quarter_data}")
-#
-# print(f"\nProfit per sale on discounted units: \n{quarter_data_dis}")
-# print(f"\nProfit per unit on regular price: \n{quarter_data_no_dis}")
-#
-# print(f"\nTop 10 most profitable authors 2018: \n{top10_authors_2018}")
-# print(f"\nTop 10 most profitable authors 2019: \n{top10_authors_2019}")
-#
-# print(f"\nTop 10 best selling authors 2018: \n{top10_authors_sales_2018}")
-# print(f"\nTop 10 best selling authors 2019: \n{top10_authors_sales_2019}")
-#
-# print(f"\nTop 10 best selling products 2018: \n{top10_products_sold_2018}")
-# print(f"\nTop 10 best selling products 2019: \n{top10_products_sold_2019}")
-#
+print("\n*Values are in Indian rupee (INR)")
+print(f"\nBalance sheet: \n{balance}")
+
+print(f"\nProfit by category: \n{profit_by_category}")
+
+print(f"\nSales data regarding sale offers: \n{sale_offers}")
+
+print(f"\nData by quarter: \n{quarter_data}")
+
+print(f"\nProfit per sale on discounted units: \n{quarter_data_dis}")
+print(f"\nProfit per unit on regular price: \n{quarter_data_no_dis}")
+
+print(f"\nTop 10 most profitable authors 2018: \n{top10_authors_2018}")
+print(f"\nTop 10 most profitable authors 2019: \n{top10_authors_2019}")
+
+print(f"\nTop 10 best selling authors 2018: \n{top10_authors_sales_2018}")
+print(f"\nTop 10 best selling authors 2019: \n{top10_authors_sales_2019}")
+
+print(f"\nTop 10 best selling products 2018: \n{top10_products_sold_2018}")
+print(f"\nTop 10 best selling products 2019: \n{top10_products_sold_2019}")
+
 print(f"\nSales per quarter by the part of the day: \n{sales_on_part_day}")
 
 print(f"\nSales per quarter by day of the week: \n{week}")
 
 print(f"\n Sales by gender: \n{gender_sales}")
+
+############### CREATING EXCEL FILE WITH TABLES ###############
 
 balance.to_excel("Balance.xlsx", index=False, header=True, startrow=1, sheet_name='Balance')
 
@@ -308,6 +310,8 @@ with pd.ExcelWriter("Balance.xlsx", mode="a", engine="openpyxl", if_sheet_exists
     top10_products_sold_2019.to_excel(writer, index=False, header=True, startrow=row_t, sheet_name='Top')
     gender_sales.to_excel(writer, index=False, header=True, startrow=row_q, sheet_name='Quarters')
 
+##### naming tables in excel #####
+
 wb = load_workbook("Balance.xlsx")
 ws_balance = wb['Balance']
 ws_quarter = wb['Quarters']
@@ -316,12 +320,14 @@ ws_top = wb['Top']
 ws_balance['A1'] = 'Balance sheet:'
 ws_balance['A12'] = 'Profit by category:'
 ws_balance['A21'] = 'Sales data regarding sale offers:'
+
 ws_quarter['A1'] = 'Profit by quarter (overall):'
 ws_quarter['A14'] = 'Discounted units profit:'
 ws_quarter['A27'] = 'Regular price units profit:'
 ws_quarter['A40'] = 'Sales per quarter by the part of the day:'
 ws_quarter['A53'] = 'Sales per quarter by day of the week:'
 ws_quarter['A66'] = 'Sales by gender:'
+
 ws_top['A1'] = 'Top 10 most profitable authors 2018'
 ws_top['A16'] = 'Top 10 most profitable authors 2019'
 ws_top['A31'] = 'Top 10 best selling authors 2018'
@@ -494,4 +500,4 @@ plt.subplot(122)
 product_pie_2019 = [top_other_products_sales_2019, top_sold_products_2019]
 plt.pie(product_pie_2019, labels=labels_aut, explode=(0, 0.1,), shadow=True, colors=colors_aut, autopct=product_autopct(product_pie_2019), startangle=160)
 plt.title('2019')
-# plt.show()
+plt.show()
