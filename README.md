@@ -20,6 +20,10 @@ First we find the most important stats and combine them into balance sheet type 
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/f77631d0-d0c8-4062-a865-478dda0981c0)
 
+Now let`s look at some data by quarters. Gross profit by quarter
+
+![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/e321e942-0d2f-4086-8ed5-0dd1df76f681)
+
 
 ## Conslusion
 It was a really nice experience to work on this project, a bunch of new things learned, tons of bugs and puzzles to solve. I`m quite happy with the result and will continue to develop my skills. You can download this apllication and try it yourself [here](https://www.dropbox.com/scl/fi/vfekzijr6ds3hh8i2ra6b/Sand-lio-programa.rar?rlkey=svv8ing3xq0fnenmi4ja4289h&dl=0).
