@@ -6,6 +6,7 @@ This project was made to improve in data analysis, make some insgiht of given da
 
 ## The main goals for this project were to:
 #### • Analyze dataset
+#### • Offer some insights related to data
 #### • Improve
 #### • Have fun
 
@@ -13,6 +14,7 @@ This project was made to improve in data analysis, make some insgiht of given da
 #### • Chose dataset from [Kaggle](https://www.kaggle.com/datasets/shilpikulshrestha/books-sold-dataset).
 #### • Clean, divide and reshape data.
 #### • Analyse data.
+#### • Make some insights and suggestions.
 #### • Save result to excel for easy access.
 
 ## Analysis:
@@ -41,6 +43,10 @@ Sales by day of the week or part of the day also does not show any meaningful de
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/9298534a-1251-406e-9fd1-5a8c69fda94b)
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/fef63a6e-5bc7-49bf-abcd-bd3c21493170)
+
+Same goes for gender factor, sales are distributed pretty evenly, with a slight edge to females.
+
+![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/baaa448b-5594-4a68-bbfc-2c9cde331111)
 
 
 
