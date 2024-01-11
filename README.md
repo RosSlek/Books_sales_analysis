@@ -24,6 +24,9 @@ Now let`s look at some data by quarters. Amount of units sold by quarter sharply
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/81553bd7-236f-44ab-903a-28b535889e24)
 
+From the table we see, that most of the sold books in 2019 were published by NCERT (National Council of Education Research and Training), so that might indicate some changes in educational program of India. New realeses or requirements would also explain why sales rose so quickly in Q2 and Q3.
+
+![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/fa5c4592-8120-4de7-8671-8497aa5dfa5d)
 
 
 
