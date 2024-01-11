@@ -28,6 +28,10 @@ From the table we see, that most of the sold books in 2019 were published by NCE
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/fa5c4592-8120-4de7-8671-8497aa5dfa5d)
 
+Since selling product is educational, it is bought by necessity, so there is no big impact of sale offers. Following pie chart shows, that less than 15% of sales and made on discounted books.
+
+![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/51902b7e-d824-489a-b22e-4bd6bf128c3d)
+
 
 
 ## Conslusion
