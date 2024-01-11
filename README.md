@@ -22,7 +22,7 @@ First we find the most important stats and combine them into balance sheet type 
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/f77631d0-d0c8-4062-a865-478dda0981c0)
 
-Now let`s look at some data by quarters. Gross profit per quarter was not stable, it heavily decreased for a year until Q2 of 2019, then it increased 6 fold compared to the quarter before. These irregularities might be a consequence of educational product nature.
+Now let`s look at some data by quarters. Gross profit per quarter was not stable, it heavily decreased for a year until Q2 of 2019, then it increased 6 fold compared to the quarter before. These irregularities might be a consequence of educational product nature. It is not evenly required year to year or month to month so a lot of unknown factors could have impact.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/2b9db41e-b3e8-4287-b47c-f5696915fe8d)
 
