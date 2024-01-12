@@ -17,7 +17,6 @@ This project was made to improve in data analysis, make some insights of given d
 #### • Make some insights and suggestions of analysis.
 
 ## About data:
-Chosen data is about Indian educational book store sales for 2018-2019 period.
 Dataset of educational books sold in year 2018-2019. This dataset has four categories of books sold, also provide information about author, publication, information about sales made on discounted books, cost price and profit.
 
 ## Analysis:
