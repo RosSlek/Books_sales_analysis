@@ -59,6 +59,14 @@ Same goes for gender factor, sales are distributed pretty evenly, with a slight 
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/baaa448b-5594-4a68-bbfc-2c9cde331111)
 
+From the pie charts we can see, that Top10 most sold authors account for 53.3% of sales in 2018 and 85% in 2019, again, because most of the sales come from single author mentioned above in the analysis (NCERT).
+
+![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/723103fe-d776-4408-9da5-dafeda931d22)
+
+Top 10 books are responsible for roughly 50% of the sales, so variety of products at the give dataset should be considered. This concentration could be marked as a weak spot and going to a wider spectrum of products might be a way to grow business.
+
+![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/8a7d3646-d082-40c2-97e6-bbd1a4fa9c16)
+
 
 
 
