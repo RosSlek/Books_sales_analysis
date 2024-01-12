@@ -17,7 +17,7 @@ This project was made to improve in data analysis, make some insights of given d
 #### • Make some insights and suggestions of analysis.
 
 ## About data:
-Dataset of educational books sold in year 2018-2019. This dataset has four categories of books sold, also provide information about author, publication, information about sales made on discounted books, cost price and profit. Values are in Indian rupee (INR), which at the period under consideration was around 0.012 Euro (Eur).
+Dataset of educational books sold in year 2018-2019. This dataset has four categories of books sold, also provide information about author, publication, information about sales made on discounted books, cost price and profit. Values are in Indian rupee (INR), which at the period under consideration was equal to around 0.012 Euro (Eur).
 
 ## Analysis:
 Firstly let`s find the most important stats and combine them into balance sheet type table. As we can see revenue slightly increased from 652,271k in year 2018 to 662,290k in 2019. Gross profit grew by 8.6% and gross profit percentage increased to 16.36% while cost of revenue rose insignificantly. However, amount of units sold per year almost doubled, so operating expenses most likely grew, thus reducing net profit. Profit per unit sold shrank almost in half. 
