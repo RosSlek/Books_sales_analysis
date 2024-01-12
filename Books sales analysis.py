@@ -83,6 +83,8 @@ profit_by_category = pd.concat([profit_by_category_2018, profit_by_category_2019
 
 ##### gross profit by author #####
 
+total_authors = df.groupby('Author')['Profit (INR)'].sum()
+
 profit_by_author_2018 = df_2018.groupby('Author')['Profit (INR)'].sum().round(2).reset_index()
 top10_authors_2018 = profit_by_author_2018.sort_values(by='Profit (INR)', ascending=False).head(10)
 bottom10_authors_2018 = profit_by_author_2018.sort_values(by='Profit (INR)', ascending=True).head(10)
@@ -334,6 +336,8 @@ ws_top['A31'] = 'Top 10 best selling authors 2018'
 ws_top['A46'] = 'Top 10 best selling authors 2019'
 ws_top['A61'] = 'Top 10 best selling products 2018'
 ws_top['A76'] = 'Top 10 best selling products 2019'
+ws_top['A90'] = f"Total different products: {len(profit_by_product)}"
+ws_top['A91'] = f"Total different authors: {len(total_authors)}"
 
 wb.save("Balance.xlsx")
 
