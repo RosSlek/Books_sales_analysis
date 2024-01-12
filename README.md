@@ -67,6 +67,4 @@ Top 10 books are responsible for roughly 50% of the sales, so variety of product
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/8a7d3646-d082-40c2-97e6-bbd1a4fa9c16)
 
 ## Conslusion
-From analysis we can see that business isn`t at a fast growing pace in a given period, even with a huge increase in books sold at year 2019, profits does not show significant improvement and strongly vary from quarter to quarter. 
-
-It was a really nice experience to work on this project, a bunch of new things learned, tons of bugs and puzzles to solve. I`m quite happy with the result and will continue to develop my skills.
+From analysis we can see that business is not at a fast growing pace in a given period, even with a huge increase in books sold at year 2019, profits does not show significant improvement and strongly vary from quarter to quarter. Factors which are out of business controll can have a huge impact on sales, because of 
