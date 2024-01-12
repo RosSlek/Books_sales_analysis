@@ -41,7 +41,7 @@ Majority of sold books in 2018 fall into either college or competition category,
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/ab8139be-2f36-4298-b852-d4d356d4e315)
 
 
-Since selling product is educational, it is bought by necessity, so special offers does not have a big impact on sales. Following pie chart shows, that less than 15% of sales are made on discounted books.
+Since selling product is educational, it is bought by necessity, so special offers does not have a big impact on sales. Following pie chart shows, that less than 15% of sales are made on discounted books. Possibly discount culture is not so common in region and this might be turned into opportunity.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/51902b7e-d824-489a-b22e-4bd6bf128c3d)
 
