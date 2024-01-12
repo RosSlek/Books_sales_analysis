@@ -30,7 +30,7 @@ Amount of units sold by quarter sharply droped after Q2 of year 2018 and stayed 
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/81553bd7-236f-44ab-903a-28b535889e24)
 
-From the table we see, that most of the sold books in 2019 were published by NCERT (National Council of Education Research and Training), so that might indicate some changes in educational program of India. New realeses or regulations would also explain why sales rose so quickly in Q2 and Q3 but profit per sale was all time low.
+From the table we see, that most of the sold books in 2019 were published by NCERT (National Council of Education Research and Training), so that might indicate some changes in educational program of India. New realeses or regulations could also explain why sales rose so quickly in Q2 and Q3 but profit per sale was all time low.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/fa5c4592-8120-4de7-8671-8497aa5dfa5d)
 
@@ -39,7 +39,7 @@ Majority of sold books in 2018 fall into either college or competition category,
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/ab8139be-2f36-4298-b852-d4d356d4e315)
 
 
-Since selling product is educational, it is bought by necessity, so sale offers does not have a big impact on sales. Following pie chart shows, that less than 15% of sales are made on discounted books.
+Since selling product is educational, it is bought by necessity, so special offers does not have a big impact on sales. Following pie chart shows, that less than 15% of sales are made on discounted books.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/51902b7e-d824-489a-b22e-4bd6bf128c3d)
 
