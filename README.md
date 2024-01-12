@@ -22,11 +22,11 @@ First we find the most important stats and combine them into balance sheet type 
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/f77631d0-d0c8-4062-a865-478dda0981c0)
 
-Now let`s look at some data by quarters. Gross profit per quarter was not stable, it heavily decreased for a year until Q2 of 2019, then it increased 6 fold compared to the quarter before. These irregularities might be a consequence of educational product nature. It is not evenly required year to year or month to month so a lot of unknown factors could have impact.
+Now let`s look at some data by quarters. Gross profit per quarter was not stable, it heavily decreased for a year until Q2 of 2019, then it increased 6 fold compared to the quarter before. These irregularities might be a consequence of educational product nature. It is not evenly required year to year or month to month so a lot of unknown factors could have impact for company's profitability.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/2b9db41e-b3e8-4287-b47c-f5696915fe8d)
 
-Amount of units sold by quarter sharply droped after Q2 of year 2018 and stayed low until Q2 of 2019. Q2 and Q3 account for 82.6% of 2019 sales, however gross profit per unit sold was the lowest in Q2 - 2019 throughout both years.
+Amount of units sold by quarter sharply droped after Q2 of year 2018 and stayed low until Q2 of 2019. Q2 and Q3 account for 82.6% of 2019 sales, however gross profit per unit sold was lowest in Q2 - 2019 throughout both years.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/81553bd7-236f-44ab-903a-28b535889e24)
 
