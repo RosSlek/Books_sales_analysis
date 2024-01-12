@@ -7,8 +7,7 @@ This project was made for to improve in data analysis.
 ## The main goals for this project were to:
 #### • Analyze dataset
 #### • Offer some insights related to data
-#### • Improve
-#### • Have fun
+#### • Improve and have fun
 
 ## Main steps:
 #### • Chose dataset from [Kaggle](https://www.kaggle.com/datasets/shilpikulshrestha/books-sold-dataset).
