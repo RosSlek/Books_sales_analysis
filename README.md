@@ -2,7 +2,7 @@
 
 Created by [Rosvaldas Šlekys](https://github.com/RosSlek) 
 
-This project was made to improve in data analysis, make some insgiht of given data.
+This project was made to improve in data analysis, make some insights of given data.
 
 ## The main goals for this project were to:
 #### • Analyze dataset
@@ -12,10 +12,13 @@ This project was made to improve in data analysis, make some insgiht of given da
 
 ## Main steps:
 #### • Chose dataset from [Kaggle](https://www.kaggle.com/datasets/shilpikulshrestha/books-sold-dataset).
-#### • Clean, divide and reshape data.
-#### • Analyse data.
-#### • Make some insights and suggestions.
+#### • Clean, divide and reshape and analyse data.
 #### • Save result to excel for easy access.
+#### • Make some insights and suggestions of analysis.
+
+## About data:
+Chosen data is about Indian educational book store sales for 2018-2019 period.
+Dataset of educational books sold in year 2018-2019. This dataset has four categories of books sold, also provide information about author, publication, information about sales made on discounted books, cost price and profit.
 
 ## Analysis:
 First we find the most important stats and combine them into balance sheet type table. As we can see revenue slightly increased from 652,271k in year 2018 to 662,290k in 2019. Gross profit grew by 8.6% and gross profit percentage increased to 16.36% while cost of revenue rose insignificantly. However, amount of units sold per year almost doubled, so operating expenses most likely grew, thus reducing net profit. Profit per unit sold shrank almost in half. 
