@@ -67,4 +67,6 @@ Top 10 books are responsible for roughly 50% of the sales, so variety of product
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/8a7d3646-d082-40c2-97e6-bbd1a4fa9c16)
 
 ## Conslusion
+From analysis we can see that business that 
+
 It was a really nice experience to work on this project, a bunch of new things learned, tons of bugs and puzzles to solve. I`m quite happy with the result and will continue to develop my skills.
