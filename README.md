@@ -5,25 +5,25 @@ Created by [Rosvaldas Šlekys](https://github.com/RosSlek)
 This project was made to improve in data analysis.
 
 ## The main goals for this project were to:
-#### • Analyze dataset
-#### • Offer some insights related to data
-#### • Improve and have fun
+#### • Analyze dataset.
+#### • Offer some insights related to data.
+#### • Improve and have fun.
 
 ## Main steps:
 #### • Chose dataset from [Kaggle](https://www.kaggle.com/datasets/shilpikulshrestha/books-sold-dataset).
-#### • Clean, divide and reshape and analyse data.
-#### • Save result to excel for easy access.
+#### • Clean, divide, reshape and analyse data.
+#### • Save results to excel for easy access.
 #### • Make some insights and suggestions of analysis.
 
 ## About data:
-Dataset of educational books sold in year 2018-2019. This dataset has four categories of books sold, also provide information about author, publication, information about sales made on discounted books, cost price and profit. Values are in Indian rupee (INR), which at the period under consideration was equal to around 0.012 Euro (Eur).
+Dataset of educational books sold in year 2018-2019. This dataset has four categories of books sold, also provide information about author, publication, information about sales made on discounted books, cost price and profit. Books are sold in India, values are in Indian rupee (INR), which at the period under consideration was equal to around 0.012 Euro (Eur).
 
 ## Analysis:
-Firstly let`s find the most important stats and combine them into balance sheet type table. As we can see revenue slightly increased from 652,271k in year 2018 to 662,290k in 2019. Gross profit grew by 8.6% and gross profit percentage increased to 16.36% while cost of revenue rose insignificantly. However, amount of units sold per year almost doubled, so operating expenses most likely grew, thus reducing net profit. Profit per unit sold shrank almost in half. 
+Firstly let`s find the most important stats and combine them into balance sheet type table. As we can see revenue slightly increased from 652,271k in year 2018 to 662,290k in 2019. Gross profit grew by 8.6% and gross profit percentage increased to 16.36% while cost of revenue rose insignificantly. However, amount of units sold per year almost doubled, so operating expenses most likely grew, thus reducing net profit. Gross profit per unit sold shrank almost in half. 
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/f77631d0-d0c8-4062-a865-478dda0981c0)
 
-Now let`s look at some data by quarters. Gross profit per quarter was not stable, it heavily decreased for a year until Q2 of 2019, then it increased 6 fold compared to the quarter before. These irregularities might be a consequence of educational product nature. It is not evenly required year to year or month to month so a lot of unknown factors could have impact for company's profitability.
+Now let`s look at some data by quarters. Gross profit per quarter was not stable, it heavily decreased for a year until Q2 of 2019, then it increased 6 fold compared to the quarter before. These irregularities might be a consequence of educational product nature. It is not evenly required year to year or month to month so a lot of unknown factors could have impact for company's profitability and sales.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/2b9db41e-b3e8-4287-b47c-f5696915fe8d)
 
