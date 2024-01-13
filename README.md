@@ -39,7 +39,6 @@ Majority of sold books in 2018 fall into either college or competition category,
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/ab8139be-2f36-4298-b852-d4d356d4e315)
 
-
 Since selling product is educational, it is bought by necessity, so special offers does not have a big impact on sales. Following pie chart shows, that less than 15% of sales are made on discounted books. It is also possible, that discount culture is not so common in region.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/51902b7e-d824-489a-b22e-4bd6bf128c3d)
@@ -58,13 +57,13 @@ Same goes for gender factor, sales are distributed pretty evenly, with a slight 
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/baaa448b-5594-4a68-bbfc-2c9cde331111)
 
-From the pie charts we can see, that Top10 most sold authors account for 53.3% of sales in 2018 and 85% in 2019, again, because most of the sales come from single author mentioned above in the analysis (NCERT).
+From the pie charts we can see, that ten most sold authors (out of 183 author) account for 53.3% of sales in 2018 and 85% in 2019, again, because most of the sales come from single author mentioned above in the analysis (NCERT).
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/723103fe-d776-4408-9da5-dafeda931d22)
 
-Top 10 books are responsible for roughly 50% of the sales (out of 251 different book), so variety of products at the give dataset should be considered. This concentration could be marked as a weak spot and to widen the range of different products sold would be advisable.
+Top 10 books are responsible for roughly 50% of the sales (out of 251 different book). This concentration could be marked as a weak spot and to widen the range of different products sold would be advisable.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/8a7d3646-d082-40c2-97e6-bbd1a4fa9c16)
 
 ## Conslusion
-From analysis we can see that business is not at a fast growing pace in a given period, even with a huge increase in books sold at year 2019, profits does not show significant improvement and strongly vary from quarter to quarter. Factors which are out of business controll can have a huge impact on sales, because of the nature of selling goods. Clear example of this is second quarter of 2019. Sales have normal distribution between genders, days of the week or parts of the day. Special offers also does not play significant role. Also small percentage of products is responsible for half the sales, so increasing sales of other products might be an idea worth of consideration.
+From analysis we can see that business is not at a fast growing pace in a given period, even with a huge increase in books sold at year 2019, profits does not show significant improvement and strongly vary from quarter to quarter. Factors which are out of business control can have a huge impact on sales, because of the nature of selling goods. Clear example of this is second quarter of 2019. Sales have normal distribution between genders, days of the week or parts of the day. Special offers also does not play significant role. Also small percentage of products is responsible for half the sales, so a strategy to improve sales of other products might be an idea worth of consideration.
