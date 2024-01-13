@@ -12,7 +12,7 @@ This project was made to improve in data analysis.
 ## Main steps:
 #### • Chose dataset from [Kaggle](https://www.kaggle.com/datasets/shilpikulshrestha/books-sold-dataset).
 #### • Clean, divide, reshape and analyse data.
-#### • Save results to excel for easy access.
+#### • Save results to [excel](https://github.com/RosSlek/Books_sales_analysis/blob/master/Balance.xlsx) for easy access (there is more information then covered in analysis below).
 #### • Make some insights and suggestions of analysis.
 
 ## About data:
