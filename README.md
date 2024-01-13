@@ -2,7 +2,7 @@
 
 Created by [Rosvaldas Šlekys](https://github.com/RosSlek) 
 
-This project was made for to improve in data analysis.
+This project was made to improve in data analysis.
 
 ## The main goals for this project were to:
 #### • Analyze dataset
