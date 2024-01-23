@@ -39,6 +39,10 @@ Majority of sold books in 2018 fall into either college or competition category,
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/ab8139be-2f36-4298-b852-d4d356d4e315)
 
+After a quick search, we can see that actual changes in educational policy were made for year 2019, with a focus "to create a more holistic, unified education system, with greater continuity, foci on longer free and compulsory education (from age three to 18), and a Foundation stage that ensures greater school readiness when children begin primary school." This event perfectly explains why NCERT was the most sold author and school books took a bigger part of sales in 2019.
+
+![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/2d322aec-f25f-4b91-a2d2-d0dd363705e3)
+
 Since selling product is educational, it is bought by necessity, so special offers does not have a big impact on sales. Following pie chart shows, that less than 15% of sales are made on discounted books. It is also possible, that discount culture is not so common in region.
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/51902b7e-d824-489a-b22e-4bd6bf128c3d)
@@ -66,4 +70,4 @@ Top 10 books are responsible for roughly 50% of the sales (out of 251 different 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/8a7d3646-d082-40c2-97e6-bbd1a4fa9c16)
 
 ## Conslusion
-From analysis we can see that business is not at a fast growing pace in a given period, even with a huge increase in books sold at year 2019, profits does not show significant improvement and strongly vary from quarter to quarter. Factors which are out of business control can have a huge impact on sales, because of the nature of selling goods. Clear example of this is second quarter of 2019. Sales have normal distribution between genders, days of the week or parts of the day. Special offers also does not play significant role. Also small percentage of products is responsible for half the sales, so a strategy to improve sales of other products might be an idea worth of consideration.
+From analysis we can see that business is not at a fast growing pace in a given period, even with a huge increase in books sold at year 2019, profits does not show significant improvement and strongly vary from quarter to quarter. Factors which are out of business control can have a huge impact on sales, because of the nature of selling goods. Clear example of this is second quarter of 2019, then National Education Policy changes took place. Sales have normal distribution between genders, days of the week or parts of the day. Special offers also does not play significant role. Also small percentage of products is responsible for half the sales, so a strategy to improve sales of other products might be an idea worth of consideration.
