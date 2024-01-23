@@ -39,7 +39,10 @@ Majority of sold books in 2018 fall into either college or competition category,
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/ab8139be-2f36-4298-b852-d4d356d4e315)
 
-After a quick search, we can see that actual changes in educational policy were made for year 2019, with a focus "to create a more holistic, unified education system, with greater continuity, foci on longer free and compulsory education (from age three to 18), and a Foundation stage that ensures greater school readiness when children begin primary school." This event perfectly explains why NCERT was the most sold author and school books took a bigger part of sales in 2019.
+After a quick search, we can see that actual changes in educational policy were made for year 2019, with a focus "to create a more holistic, unified education system, with greater continuity, foci on longer free and compulsory education (from age three to 18), and a Foundation stage that ensures greater school readiness when children begin primary school." This event perfectly explains why NCERT was the most sold author and school books took a bigger part of sales in 2019. 
+Sources:
+https://educationforallinindia.com/wp-content/uploads/2020/12/national-policy-on-education-final-english_55pages.pdf
+https://www.britishcouncil.in/sites/default/files/school_education_system_in_india_report_2019_final_web.pdf
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/2d322aec-f25f-4b91-a2d2-d0dd363705e3)
 
