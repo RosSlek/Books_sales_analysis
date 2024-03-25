@@ -7,6 +7,7 @@ This project was made to improve in data analysis.
 ## The main goals for this project were to:
 #### • Analyze dataset.
 #### • Offer some insights related to data.
+#### • Create a PowerBI visualization.
 #### • Improve and have fun.
 
 ## Main steps:
