@@ -20,7 +20,7 @@ This project was made to improve in data analysis.
 After dataset is cleaned and balance table is created, both tables are saved in a PostgreSQL database. Then this data is taken to Power bi and visualizations are created.
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/015e904f-bfed-4d15-96b0-7ce88e9703cc)
 
-![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/4124a66f-4d6e-4364-9f63-26afd793ccf2)
+![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/47dd19f7-5e83-495e-b4b8-859080142b92)
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/950c0687-b518-4b20-8567-bbfa9da469e5)
 
