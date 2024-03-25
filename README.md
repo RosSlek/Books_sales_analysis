@@ -7,7 +7,7 @@ This project was made to improve in data analysis.
 ## The main goals for this project were to:
 #### • Analyze dataset.
 #### • Offer some insights related to data.
-#### • Create a PowerBI visualization.
+#### • Create a [PowerBI](https://github.com/RosSlek/Books_sales_analysis/blob/master/Books%20sales%20analysis.pbix) visualization.
 #### • Improve and have fun.
 
 ## Main steps:
