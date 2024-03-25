@@ -16,6 +16,9 @@ This project was made to improve in data analysis.
 #### • Save results to [excel](https://github.com/RosSlek/Books_sales_analysis/blob/master/Balance.xlsx) for easy access (there is more information then covered in analysis below).
 #### • Make some insights and suggestions of analysis.
 
+## About data:
+Dataset of educational books sold in year 2018-2019. This dataset has four categories of books sold, also provide information about author, publication, information about sales made on discounted books, cost price and profit. Books are sold in India, values are in Indian rupee (INR), which at the period under consideration was equal to around 0.012 Euro (Eur).
+
 ## Visualization:
 After dataset is cleaned and balance table is created, both tables are saved in a PostgreSQL database. Then this data is taken to Power bi and visualizations are created.
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/015e904f-bfed-4d15-96b0-7ce88e9703cc)
@@ -23,9 +26,6 @@ After dataset is cleaned and balance table is created, both tables are saved in 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/47dd19f7-5e83-495e-b4b8-859080142b92)
 
 ![image](https://github.com/RosSlek/Books_sales_analysis/assets/149397027/950c0687-b518-4b20-8567-bbfa9da469e5)
-
-## About data:
-Dataset of educational books sold in year 2018-2019. This dataset has four categories of books sold, also provide information about author, publication, information about sales made on discounted books, cost price and profit. Books are sold in India, values are in Indian rupee (INR), which at the period under consideration was equal to around 0.012 Euro (Eur).
 
 ## Analysis:
 Firstly let`s find the most important stats and combine them into balance sheet type table. As we can see revenue slightly increased from 652,271k in year 2018 to 662,290k in 2019. Gross profit grew by 8.6% and gross profit percentage increased to 16.36% while cost of revenue rose insignificantly. However, amount of units sold per year almost doubled, so operating expenses most likely grew, thus reducing net profit. Gross profit per unit sold shrank almost in half. 
